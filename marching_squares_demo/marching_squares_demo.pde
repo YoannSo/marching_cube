@@ -1,9 +1,9 @@
-final int rez = 10;
-final int N = 50;
+/*final int rez = 20;
+final int N = 1;
 final float radius = 50;
 final float vel = 2;
 final int REC_INTERP = 5;
-
+// principe rez=>
 float[][] field;
 int cols, rows;
 ImplicitParticles particles;
@@ -27,18 +27,18 @@ void line(PVector v1, PVector v2) {
 void draw() {
   background(0); 
 
-  /*
+  
   stroke(255);
   noFill();
   particles.drawCircles();
-  */
+  
 
-  /*
+  
   stroke(255);
   for (int i = 0; i < width; i++) 
     for (int j = 0; j < height; j++) 
       if (particles.eval(i,j) == 1) point(i, j);      
-  */
+  
   
   for (int i = 0; i < cols-1; i++) {
     for (int j = 0; j < rows-1; j++) {
@@ -109,3 +109,4 @@ void draw() {
 int getState(int a, int b, int c, int d) {
   return a * 8 + b * 4  + c * 2 + d * 1;
 }
+*/
